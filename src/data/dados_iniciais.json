@@ -1,0 +1,125 @@
+{
+  "categorias": [
+    {
+      "titulo": "ICONIC CAST",
+      "link": "https://iconic.network/",
+      "cor": "orange",
+      "link_extra": {
+        "text": "Iconic NetWork",
+        "url": "https://iconic.network/"
+      },
+      "videos": [
+        {
+          "titulo": "Conhecendo o Universo 3D",
+          "url": "https://www.youtube.com/watch?v=CF-JrsR9YqA"
+        },
+        {
+          "titulo": "Natalia Freitas, Artista 3D – ICONICast 4",
+          "url": "https://www.youtube.com/watch?v=BtMmaCmeY8g"
+        },
+        {
+          "titulo": "Leticia Gillett, Artista 3D na Blizzard – ICONICast 9",
+          "url": "https://www.youtube.com/watch?v=zCX7DWl-3ro"
+        },
+        {
+          "titulo": "Thiago Vidotto, Artista 3D e Animador na Valve – ICONICast 31",
+          "url": "https://www.youtube.com/watch?v=11QC-bN4W7M"
+        },
+        {
+          "titulo": "Rafa Souza, Modelador 3D - ICONICast 69",
+          "url": "https://www.youtube.com/watch?v=gqrT5eqY_p8"
+        },
+        {
+          "titulo": "Rafa Grassetti, Diretor de Arte na Sony Santa Monica - ICONICast 75",
+          "url": "https://www.youtube.com/watch?v=CxJgXkxiCSM"
+        },
+        {
+          "titulo": "Pedro Conti, Artista 3D - ICONICast 92",
+          "url": "https://www.youtube.com/watch?v=ZZR13bFhXYk"
+        }        
+      ]
+    },
+    {
+      "titulo": "BLENDER",
+      "cor": "#3260a8",
+      "link_extra": {
+        "text": "Cursos de Blender na Alura",
+        "url": "https://www.alura.com.br/curso-online-blender-modelagem-producao"
+      },
+      "videos": [
+        {
+          "titulo": "Como COMEÇAR no Blender",
+          "url": "https://www.youtube.com/watch?v=hNhkE-brr7o"
+        },
+        {
+          "titulo": "Donut Course Trailer",
+          "url": "https://www.youtube.com/watch?v=NyJWoyVx_XI"
+        },
+        {
+          "titulo": "Dinheiro não me interessa - Criador do Blender fala sobre seu futuro",
+          "url": "https://www.youtube.com/watch?v=qJEWOTZnFeg"
+        },
+        {
+          "titulo": "Blender serve para grandes produções - #Blender LTS program",
+          "url": "https://www.youtube.com/watch?v=UNMKhKTMzj4"
+        }, 
+        {
+          "titulo": "Agente 327: Operação Barbearia",
+          "url": "https://www.youtube.com/watch?v=mN0zPOpADL4"
+        }
+      ]
+    },
+    {
+      "titulo": "Zbrush",
+      "cor": "#182740",
+      "link_extra": {
+        "text": "Cursos de Zbrush na Alura",
+        "url": "https://www.alura.com.br/curso-online-zbrush"
+      },
+      "videos": [
+        {
+          "titulo": "Teste de Turing",
+          "url": "https://www.youtube.com/watch?v=BaPGU4JWa34"
+        },
+        {
+          "titulo": "O que é Data Science?",
+          "url": "https://www.youtube.com/watch?v=5b9Z8toVaAU&t=9s"
+        },
+        {
+          "titulo": "Melhor forma de aprender Python",
+          "url": "https://www.youtube.com/watch?v=Gojqw9BQ5qY"
+        },
+        {
+          "titulo": "Como ingressar no mercado de Data Science?",
+          "url": "https://www.youtube.com/watch?v=gxyjGmOV540"
+        }
+      ]
+    },
+    {
+      "titulo": "CD4",
+      "cor": "#0048fc",
+      "link_extra": {
+        "text": "Cursos de Cinema 4D na Alura",
+        "url": "https://www.alura.com.br/curso-online-cinema-4d-lite"
+      },
+      "videos": [
+        {
+          "titulo": "Como COMEÇAR no Cinema 4D - Tutorial Cinema 4D",
+          "url": "https://www.youtube.com/watch?v=8O0az1efV1c"
+        },
+        {
+          "titulo": "Qual é o MELHOR: Cinema 4D, Blender ou Zbrush?",
+          "url": "https://www.youtube.com/watch?v=WJ9gB6V1XUs"
+        },
+        {
+          "titulo": "Cinema 4D Demo Reel NAB 2020",
+          "url": "https://www.youtube.com/watch?v=XZmOWIxuyWQ"
+        },
+        {
+          "titulo": "Cinema 4D Animation Plugins",
+          "url": "https://www.youtube.com/watch?v=XKc19jonsco"
+        }
+      ]
+    }
+  ]
+}
