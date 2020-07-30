@@ -6,6 +6,17 @@ import Home from './pages/Home';
 import { BrowserRouter, Switch, Route } from 'react-router-dom';
 import CadastroVideo from './pages/cadastro/Video';
 import CadastroCategoria from './pages/cadastro/Categoria';
+import PageDefault from './componentes/PageDefault';
+
+
+const Page404 = () =>{
+  return(
+    <PageDefault>
+      <h3 style={{ textAlign: "center" }}> 404 - Page not found </h3>
+      
+      </PageDefault>
+  );
+};
 
 
 ReactDOM.render(
@@ -14,7 +25,7 @@ ReactDOM.render(
         <Route path="/" component={Home}  exact/>
         <Route path="/cadastro/Video" component={CadastroVideo} />
         <Route path="/cadastro/Categoria" component={CadastroCategoria} />
-        <Route component={() => (<div>Pagina 404</div>)} />
+        <Route component={Page404}/>
       </Switch> 
     
   </BrowserRouter>,

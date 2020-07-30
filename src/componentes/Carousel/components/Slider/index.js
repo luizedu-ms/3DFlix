@@ -6,7 +6,6 @@ import styled from 'styled-components';
 const Container = styled.ul`
   padding: 0;
   margin: 0;
-  margin-right:50px;
   .slick-prev,
   .slick-next {
     z-index: 50;
@@ -14,8 +13,10 @@ const Container = styled.ul`
     bottom: 0;
     margin: auto;
     width: 30px;
-    height: 30px;
+    height: 200px;
     transform: initial;
+    background-color: var(--red);
+
     
     &:before {
       font-size: 30px;
@@ -26,15 +27,14 @@ const Container = styled.ul`
     left: 0;
   }
   .slick-next {
-    right: 16px;
+    right: 0px;
+    
   }
 `;
 
 export const SliderItem = styled.li`
-  margin-right: 5px;
-  z-index: 2px;
+  margin-right: 2px;
   img {
-    margin: 16px;
     width: 298px;
     height: 197px;
     object-fit: cover;
@@ -46,13 +46,11 @@ const Slider = ({ children }) => (
   <Container>
     <SlickSlider {...{
       dots: false,
-      infinite: false,
-
+      infinite: true,
       speed: 300,
       centerMode: false,
       variableWidth: true,
       adaptiveHeight: true,
-      
     }}
     >
       {children}

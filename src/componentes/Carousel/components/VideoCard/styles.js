@@ -17,11 +17,12 @@ export const VideoCardContainer = styled.a`
   align-items: flex-end;
   transition: 0.5s;
   
-  &:hover,
-  &:focus {
+  &:hover{
   transition: 0.5s;
-  transform: scale(1.1); 
-  z-index:5px;  
+  overflow: hidden;
+  transform: scale(1.2); 
+  margin-left: 15px;
+  margin-right: 30px;
   }
   
   &:not(:first-child) {
